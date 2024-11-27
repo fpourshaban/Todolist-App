@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(247, 227, 227);
+    padding: 5%;
+}
+#container{
+    margin:  auto ;
+    width: 80%;
+    background-color: rgb(233, 91, 91);
+    border-radius: 10px;
+    padding: 2%;
+    height: 500px;
+}
+#header{
+   
+    color: white ;
+    text-align: center;
+    font: 20px arial;
+    padding: 2%;
+}
+
+#submit{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding:2% ;
+}
+#task {
+    background-color: rgb(247, 227, 227);
+    flex:2;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    margin-right: 1%;
+}
+
+#submitbtn{
+    background-color: rgb(246, 243, 243);
+    flex:1;
+    padding: 2%;
+    border-radius: 10px;
+    border:none;
+    margin-left: 1%;
+}
+.action{
+    display: flex;
+    margin: auto;
+}
+.actionbtn{
+    flex:1;
+    margin: 5%;
+    padding: 10%;
+    border-radius: 10px;
+    border: none;
+}
+
+
+ul li {
+    width: 90%;
+    padding: 2%;
+    text-decoration: none;
+    display: flex;
+    
+}
+span{
+    width: 50%;
+    border-bottom: solid rgb(130, 17, 17) 1px;
+}
+
